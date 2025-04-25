@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "186756049993",
+    "project_id": "nlqwellnessapp",
+    "storage_bucket": "nlqwellnessapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:186756049993:android:e63b5e05bc990dc184a398",
+        "android_client_info": {
+          "package_name": "com.nlqwellness"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOvcWUcgr-cwo9UStNcgKi9f8g8I632A8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

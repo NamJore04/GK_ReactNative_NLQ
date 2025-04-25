@@ -1,0 +1,51 @@
+// Chuẩn cũ
+
+buildscript {
+    ext {
+        buildToolsVersion = "35.0.0"
+        minSdkVersion = 24
+        compileSdkVersion = 35
+        targetSdkVersion = 35
+        ndkVersion = "27.1.12297006"
+        kotlinVersion = "2.0.21"
+    }
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath("com.android.tools.build:gradle")
+        classpath("com.facebook.react:react-native-gradle-plugin")
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin")
+        classpath("com.google.gms:google-services:4.3.15")
+    }
+}
+
+apply plugin: "com.facebook.react.rootproject"
+apply plugin: "com.google.gms.google-services"
+
+
+
+// Chuẩn mới
+// Root-level: android/build.gradle
+
+// plugins {
+//     id 'com.android.tools.build:gradle' version '7.3.1' apply false
+//     id 'com.facebook.react' version '0.79.1' apply false
+//     id 'org.jetbrains.kotlin.jvm' version '1.8.0' apply false
+//     id 'com.google.gms.google-services' version '4.4.2' apply false  // Cấu hình plugin Google services
+// }
+
+// repositories {
+//     google()
+//     mavenCentral()
+// }
+
+// ext {
+//     buildToolsVersion = "35.0.0"
+//     minSdkVersion = 24
+//     compileSdkVersion = 35
+//     targetSdkVersion = 35
+//     ndkVersion = "27.1.12297006"
+//     kotlinVersion = "2.0.21"
+// }
